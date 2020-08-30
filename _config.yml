@@ -1,0 +1,88 @@
+# Site settings
+title: 'CypherSamurai Blog'
+description: 'A coder, freelancer for hire, and a pentester by hobby.'
+keyword: 'vbnet, java, c#, python, nodejs, javascript, html, github, code-snippet, golang, internet, networking, scipt, cool_0x1337, automation'
+url: '' # your host
+
+# when build blog on server, if you don't need baseurl, you should leave this value blank.
+# if you're using GitHub Pages, set baseurl to your blog's .
+# for example, if your site is "cypherpunksamurai.github.io", then this url should leave blank.
+# but if your created a repo named "myblog", and the site is "cypherpunksamurai.github.io/blog", change baseurl to '/blog'
+baseurl: ''
+
+# Navigation links
+nav:
+  home: '/'
+  tags: '/tags.html'
+
+# Footer
+footer:
+  since: 2017
+
+# Author 
+author: 'CypherpunkSamurai'
+nickname: 'CypherSamurai'
+bio: 'A coder, freelancer for hire, and a pentester by hobby.'
+avatar: https://avatars2.githubusercontent.com/u/66906402
+
+# Search
+search: true
+
+# Night mode
+nightMode: true
+
+# Comments
+comments:
+  disqus: false
+  disqus_url: 'https://liaokeyu.disqus.com/embed.js'
+
+# MathJax by Ray-Eldath
+mathjax: true
+
+# Share
+social-share: true
+social-share-items: ['twitter', 'github', 'email']
+
+# theme color
+theme-color: 'pink'  # pink or default
+
+# Post header background patterns (when the post no cover): circuitBoard, overlappingCircles, food, glamorous, ticTacToe, seaOfClouds
+postPatterns: 'circuitBoard'
+
+# SNS settings
+# url: email, weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
+sns:
+  instagram: '//www.instagram.com/CypherSamurai'
+  github: '//github.com/CypherpunkSamurai'
+  twitter: '//www.twitter.com/CypherSamurai'
+  email: '//CypherSamurai@gmail.com'
+  #telegram: '//t.me/CypherSamurai'
+  #weibo: '//weibo.com/lovecolcol'
+  #juejin: '//juejin.im/user/57a6f434165abd006159b4cc'
+  
+
+
+# Tags
+recommend-tags: true # whether or not display recommend-tags on the sidebar
+recommend-condition-size: 12 # a tag will be recommended if the size of it is more than this value
+
+# Build settings
+paginate: 6
+paginate_path: 'page:num'
+exclude: ['node_modules', 'dev', 'package.json', 'gulpfile.js', '.gitignore', 'README.md']
+
+# Markdown
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+
+# RSS
+RSS: false
+
+# Permalink
+# See: https://github.com/kaeyleo/jekyll-theme-H2O/issues/35
+permalink: /:year/:month/:day/:title.html
+
+# Plugins
+plugins: [jekyll-paginate]
