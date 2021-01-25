@@ -5,7 +5,6 @@ modified: 2021-01-25T19:18:34+05:30
 
 # v_01 - > Python3 - Quickstart
 
-
 ---
 layout: post
 title: 'v_00 > Python3 - Quickstart'
